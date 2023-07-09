@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: local('ClashGrotesk'),
+    url("./fonts/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Regular.ttf")
+      format('opentype');
+}
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: local('ClashGrotesk'),
+    url("./fonts/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Bold.ttf")
+      format('opentype');
+}
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: local('ClashGrotesk'),
+    url("./fonts/ClashGrotesk_Complete/Fonts/WEB/fonts/ClashGrotesk-Medium.ttf")
+      format('opentype');
+}
+body {
+  margin: 0;
+  font-family: 'ClashGrotesk';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+}
